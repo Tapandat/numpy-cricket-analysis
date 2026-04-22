@@ -13,3 +13,13 @@ print("\nString Ops:", string_operations(players))
 print("\nContiguous Arrays:", contiguous_arrays())
 
 print("\nIteration:", iteration_example(runs))
+
+from src.linear_algebra import linear_algebra_demo
+
+print("\nLinear Algebra Output:")
+dp, mp, t, det = linear_algebra_demo()
+
+print("Dot Product:", dp)
+print("Matrix Product:\n", mp)
+print("Transpose:\n", t)
+print("Determinant:", det)
