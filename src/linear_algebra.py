@@ -17,3 +17,9 @@ def linear_algebra_demo():
     determinant_A = np.linalg.det(A)
 
     return dot_product, matrix_product, transpose_A, determinant_A
+    import numpy as np
+
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+
+print("Dot Product:", np.dot(a, b))
